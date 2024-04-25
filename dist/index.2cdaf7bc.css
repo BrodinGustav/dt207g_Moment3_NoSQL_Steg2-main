@@ -1,0 +1,120 @@
+body {
+  background-color: #fffff3;
+  margin: 0;
+  padding: 50px 100px 10px;
+  font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav {
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: .5em;
+  text-decoration: underline;
+  display: flex;
+  box-shadow: 2px 5px 20px orange;
+}
+
+h1 {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+}
+
+.ul-container {
+  background-color: #e3e3e3;
+  border-radius: 10px;
+  justify-content: center;
+  width: 40vw;
+  margin: 0 auto;
+  display: flex;
+  box-shadow: 1px 1px 10px 1px orange;
+}
+
+#cv-list {
+  flex-direction: column;
+  gap: 1em;
+  display: flex;
+}
+
+#cvForm {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+  display: flex;
+}
+
+input[type="submit" i] {
+  border-radius: 10px;
+  margin-top: .5em;
+  padding: .5em;
+  font-family: Courier New, Courier, monospace;
+  font-weight: bold;
+  box-shadow: 1px 1px 5px 1px #00f;
+}
+
+input[type="submit" i]:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 20px 1px #00f;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+article {
+  align-items: left;
+  flex-direction: column;
+  line-height: 1.4em;
+  display: flex;
+}
+
+article p {
+  max-width: 70vw;
+}
+
+span {
+  flex-direction: column;
+  margin-bottom: 1em;
+  display: flex;
+}
+
+li {
+  margin-top: 1em;
+  list-style: none;
+}
+
+footer {
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: .5em;
+  margin-top: 10em;
+  display: flex;
+  box-shadow: 2px 5px 20px orange;
+}
+
+@media only screen and (width >= 2000px) {
+  body {
+    padding: 100px 500px 500px;
+    font-size: 18px;
+  }
+
+  article {
+    justify-content: cener;
+    text-align: left;
+    display: flex;
+  }
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
