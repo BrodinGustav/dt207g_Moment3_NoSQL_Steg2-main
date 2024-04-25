@@ -1,7 +1,7 @@
 //Formulär för att hämta data från servern
 async function fetchCvs(){
   try{
-  const respone = await fetch("/cv");
+  const respone = await fetch("localhost:3000/cv");
   const data = await respone.json();
   
   const ul = document.getElementById("cv-list");
