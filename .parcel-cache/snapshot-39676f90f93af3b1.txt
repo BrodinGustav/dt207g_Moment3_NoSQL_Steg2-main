@@ -1,4 +1,4 @@
-5872
+5871
 117C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_copy.c133585038443484551 0
 87C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@swc\helpers\_\_throw133585038453944284 1
 72C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\dotenv133585038435872881 1
@@ -21,7 +21,7 @@
 87C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\node-addon-api\napi.h133585038438763870 0
 79C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\source-map-js133585038439481671 1
 150C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts.map133585038441138144 0
-57C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist133585079984602563 1
+57C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist133585102700971812 1
 88C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\path-type\package.json133585038432452690 0
 114C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest.c133585038445978274 0
 104C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@swc\helpers\_\_ts_values\package.json133585038454118012 0
@@ -79,7 +79,6 @@
 88C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@parcel\diagnostic\lib133585038436959948 1
 121C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\midl.h133585038449097557 0
 107C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\csso\lib\restructure\8-restructRuleset.js133585038444665654 0
-60C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\test.js133585075466132844 0
 115C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\csso\node_modules\css-tree\lib\tokenizer\index.js133585038451717320 0
 98C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@parcel\core\lib\ParcelConfig.js133585038448832150 0
 90C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\css-what\lib\es\parse.js133585038436474890 0
@@ -93,12 +92,12 @@
 124C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@parcel\runtime-service-worker\lib\ServiceWorkerRuntime.js133585038433456934 0
 85C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\is-number\README.md133585038434504558 0
 121C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@parcel\runtime-js\lib\helpers\browser\esm-js-loader.js133585038439504857 0
-67C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\src\index.html133585036958173659 0
+67C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\src\index.html133585081615207329 0
 84C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\entities\readme.md133585038440750536 0
 90C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\abortcontroller-polyfill133585038439127434 1
 85C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\fill-range\index.js133585038433194313 0
 90C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\weak-lru-cache\README.md133585038437295241 0
-64C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\src\main.js133585079984211267 0
+64C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\src\main.js133585102700571847 0
 116C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\caniuse-lite\data\features\spellcheck-attribute.js133585038459306956 0
 94C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\csso\lib\clean\WhiteSpace.js133585038448107496 0
 66C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\src\style.css133585036959798851 0
@@ -410,13 +409,7 @@
 97C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\htmlparser2\lib\Parser.d.ts.map133585038438023728 0
 79C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\parent-module133585038434407199 1
 119C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@swc\helpers\cjs\_class_private_field_destructure.cjs133585038441373080 0
-116C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@swc\helpers\_\_class_apply_descriptor_destructure133585038451881901 1
-115C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\csso\node_modules\css-tree\lib\tokenizer\types.js133585038452921260 0
-76C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\parse-json133585038434407199 1
-129C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\utils\clone.js133585038439891442 0
-75C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\path-type133585038435118449 1
-91C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@swc\helpers\_\_ts_values133585038454105289 1
-104C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\source-map\lib\source-map-generator.js133585038438563281 0
+116C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@swc\helpers\_\_class_apply_descr0
 122C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@parcel\utils\test\input\sourcemap\referenced-min.js.map133585038448689843 0
 97C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\caniuse-lite\data\regions\RE.js133585038458572666 0
 92C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\svgo\plugins\reusePaths.js133585038447670712 0
@@ -485,7 +478,7 @@
 72C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\stable133585038435062858 1
 83C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@parcel\codeframe133585038442147817 1
 104C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\dom-serializer\lib\esm\foreignNames.js133585038433533572 0
-80C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\supports-color133585038435118449 1
+80C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg22main\node_modules\supports-color133585038435118449 1
 119C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@parcel\runtime-js\lib\helpers\browser\html-loader.js133585038440322497 0
 70C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\svgo133585038442649220 1
 118C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\csso\node_modules\css-tree\cjs\syntax\node\index.cjs133585038445512012 0
@@ -521,7 +514,7 @@
 89C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\posthtml-render\license133585038432517154 0
 98C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\css-tree\cjs\tokenizer\index.cjs133585038446077676 0
 96C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\csso\node_modules\mdn-data\css133585038442379338 1
-81C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\yallist\LICENSE133585038432386133 0
+81C:\Utbildning\DT207G\de207g_Moment3_NoSQL_Steg2-main\node_modules\yallist\LICENSE133585038432386133 0
 97C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\caniuse-lite\data\regions\VN.js133585038460613190 0
 130C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@swc\helpers\_\_class_static_private_field_spec_set\package.json133585038452699571 0
 109C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\entities\lib\generated\decode-data-xml.d.ts133585038441290525 0
@@ -554,7 +547,7 @@
 97C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\svgo\plugins\removeEmptyText.js133585038446150038 0
 84C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\picocolors\LICENSE133585038432418328 0
 144C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo\css-style-declaration.js133585038441827184 0
-119C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@swc\helpers\cjs\_object_without_properties_loose.cjs133585038445841379 0
+119C:\Utbildning\DT507G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@swc\helpers\cjs\_object_without_properties_loose.cjs133585038445841379 0
 96C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\electron-to-chromium\README.md133585038439457237 0
 97C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\weak-lru-cache\rollup.config.js133585038435690214 0
 86C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\posthtml-render\dist133585038436372874 1
@@ -581,6 +574,12 @@
 87C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\utility-types\LICENSE133585038432512804 0
 95C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@swc\helpers\cjs\_type_of.cjs133585038447565457 0
 88C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\picomatch\CHANGELOG.md133585038437795461 0
+96C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\js-yaml\lib\schema\failsafe.js133585038437965652 0
+107C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@swc\helpers\cjs\_non_iterable_spread.cjs133585038445599730 0
+122C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\htmlnano\docs\versioned_docs\version-2.0.0\030-config.md133585038445449093 0
+86C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\msgpackr-extract\bin133585038434700892 1
+87C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\resolve-from\index.js133585038433206265 0
+88C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules07g_Moment3_NoSQL_Steg2-main\node_modules\picomatch\CHANGELOG.md133585038437795461 0
 96C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\js-yaml\lib\schema\failsafe.js133585038437965652 0
 107C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@swc\helpers\cjs\_non_iterable_spread.cjs133585038445599730 0
 122C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\htmlnano\docs\versioned_docs\version-2.0.0\030-config.md133585038445449093 0
@@ -3664,7 +3663,7 @@
 106C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@parcel\core\src\public\PluginOptions.js133585038449372372 0
 104C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\caniuse-lite\data\features\download.js133585038454038155 0
 93C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\cosmiconfig\dist\types.d.ts133585038442101080 0
-68C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.html133585077651654777 0
+68C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.html133585081621785583 0
 97C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\cosmiconfig\dist\types.d.ts.map133585038440297119 0
 91C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\cosmiconfig\dist\types.js133585038436665417 0
 95C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\cosmiconfig\dist\types.js.map133585038440524177 0
@@ -5869,5 +5868,5 @@
 75C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\about.95bccf2d.js133585077651674772 0
 105C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\dt207g_Moment3_NoSQL_Steg2-main.59712999.js.map133585077651810585 0
 76C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.2cdaf7bc.css133585077652537322 0
-75C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.de158e3a.js133585079984522450 0
-79C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.de158e3a.js.map133585079984582458 0
+75C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.de158e3a.js133585102700888355 0
+79C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.de158e3a.js.map133585102700941693 0
