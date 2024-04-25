@@ -7,9 +7,7 @@ async function fetchCvs() {
         cvListElement.innerHTML = "";
         data.forEach((cv)=>{
             const cvElement = document.createElement("div");
-            cvElement.innerHTML = `<p><strong>F\xf6retagsnamn:</strong>${cv.companyname}</p>
-                        <p><strong>Jobttitel:</strong>${cv.jobtitle}</p>
-                        <p><strong>Arbetsplats:</strong>${cv.location}</p>`;
+            cvElement.innerHTML = `<p><strong>F\xf6retagsnamn:</strong>${cv.companyname}</p> <p><strong>Jobttitel:</strong>${cv.jobtitle}</p>, <p><strong>Arbetsplats:</strong>${cv.location}</p>`;
             cvListElement.appendChild(cvElement);
         });
     } catch (error) {
