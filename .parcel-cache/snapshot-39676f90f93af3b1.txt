@@ -2,7 +2,6 @@
 132C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\css\units.schema.json133585105165682698 0
 86C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\escape-string-regexp133585105155170092 1
 87C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\posthtml\node_modules133585105137094292 1
-79C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.de158e3a.js.map133585219444936974 0
 104C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@parcel\packager-js\src\.eslintrc.json133585105163858870 0
 88C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\timsort\src\timsort.js133585105159532693 0
 112C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\lmdb\dependencies\lz4\lib\dll\example\Makefile133585105163087696 0
@@ -12,7 +11,6 @@
 91C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\js-yaml\lib\type\merge.js133585105164454703 0
 84C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\chrome-trace-event133585105158531889 1
 93C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\node-addon-api\node_api.gyp133585105154250989 0
-75C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.de158e3a.js133585219444860464 0
 102C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\css-tree\cjs\syntax\node\Feature.cjs133585105168315131 0
 117C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_copy.c133585105168241143 0
 87C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@swc\helpers\_\_throw133585105183333313 1
@@ -36,7 +34,7 @@
 87C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\node-addon-api\napi.h133585105161540888 0
 79C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\source-map-js133585105162394830 1
 150C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts.map133585105164524710 0
-57C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist133585219444947020 1
+57C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist133585230277248822 1
 88C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\path-type\package.json133585105152575836 0
 114C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest.c133585105172812152 0
 104C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@swc\helpers\_\_ts_values\package.json133585105183556557 0
@@ -106,7 +104,7 @@
 90C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\abortcontroller-polyfill133585105161905140 1
 85C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\fill-range\index.js133585105153623747 0
 90C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\weak-lru-cache\README.md133585105159275746 0
-64C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\src\main.js133585219384847735 0
+64C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\src\main.js133585230276946740 0
 116C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\caniuse-lite\data\features\spellcheck-attribute.js133585105190252601 0
 94C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\csso\lib\clean\WhiteSpace.js133585105175473815 0
 66C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\src\style.css133585036959798851 0
@@ -5870,3 +5868,5 @@
 101C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\dt207g_Moment3_NoSQL_Steg2-main.59712999.js133585107377395395 0
 105C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\dt207g_Moment3_NoSQL_Steg2-main.59712999.js.map133585107377494712 0
 76C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.2cdaf7bc.css133585107377624067 0
+75C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.de158e3a.js133585230277206300 0
+79C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.de158e3a.js.map133585230277237332 0

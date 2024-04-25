@@ -1,7 +1,7 @@
 //Formulär för att hämta data från servern
 async function fetchCvs() {
     try {
-        const respone = await fetch("localhost:3000/cv");
+        const respone = await fetch("http://localhost:3000/cv");
         const data = await respone.json();
         const ul = document.getElementById("cv-list");
         if (!ul) {
@@ -18,12 +18,16 @@ async function fetchCvs() {
             li.appendChild(companySpan);
             li.appendChild(jobTitleSpan);
             li.appendChild(locationSpan);
-            li.appendChild(deleteBtn);
             ul.appendChild(li); //Lägger till <li>-element till <ul>
         });
     } catch (error) {
         console.error("Fel uppstod vid h\xe4mtning av CV-data:", error);
     }
+}
+function createSpanWithText(text) {
+    const span = document.createElement("span");
+    span.textContent = text;
+    return span;
 }
 // Ladda in CV:er när sidan laddas
 fetchCvs();
