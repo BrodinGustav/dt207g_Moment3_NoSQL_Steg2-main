@@ -3,12 +3,23 @@ async function fetchCvs() {
     try {
         const respone = await fetch("/cv");
         const data = await respone.json();
-        const cvListElement = document.getElementById("cv-list");
-        cvListElement.innerHTML = "";
+        const ul = document.getElementById("cv-list");
+        if (!ul) {
+            console.error("UL element not found");
+            return;
+        }
+        ul.innerHTML = ""; //Rensar listan
         data.forEach((cv)=>{
-            const cvElement = document.createElement("div");
-            cvElement.innerHTML = `<p><strong>F\xf6retagsnamn:</strong>${cv.companyname}</p> <p><strong>Jobttitel:</strong>${cv.jobtitle}</p>, <p><strong>Arbetsplats:</strong>${cv.location}</p>`;
-            cvListElement.appendChild(cvElement);
+            const li = document.createElement("li"); //Skapar <li>-element
+            const companySpan = createSpanWithText(`Company: ${cv.companyname}`);
+            const jobTitleSpan = createSpanWithText(`Job Title: ${cv.jobtitle}`);
+            const locationSpan = createSpanWithText(`Location: ${cv.location}`);
+            // Lägg till spans i <li>-elementet
+            li.appendChild(companySpan);
+            li.appendChild(jobTitleSpan);
+            li.appendChild(locationSpan);
+            li.appendChild(deleteBtn);
+            ul.appendChild(li); //Lägger till <li>-element till <ul>
         });
     } catch (error) {
         console.error("Fel uppstod vid h\xe4mtning av CV-data:", error);
