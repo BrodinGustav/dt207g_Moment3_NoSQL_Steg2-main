@@ -1,0 +1,16 @@
+{
+  "name": "moment3_nosql_steg2",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
