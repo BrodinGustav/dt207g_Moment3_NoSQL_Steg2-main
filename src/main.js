@@ -109,10 +109,11 @@ function createSpanWithText(text) {
   return span;
 }
 
-
-async function deleteCv(url, _id) {
+//Metod för radera post
+async function deleteCv(_id) {
   try {
-    const response = await fetch(`${url}/${_id}`, {
+    console.log('ID att radera:', _id); //Kontroll för att se om ID är korrekt
+    const response = await fetch(`/cv/${_id}`, {
       method: 'DELETE'
     });
 
