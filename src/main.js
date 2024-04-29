@@ -27,6 +27,7 @@ if (window.location.pathname === "/index.html") {
     let companyname = document.getElementById('companyname').value;
     let jobtitle = document.getElementById('jobtitle').value;
     let location = document.getElementById('location').value;
+    let responsibilities = document.getElementById('responsibilities').value;
 
 // Skapa en array för att lagra felmeddelanden
 let errors = [];
@@ -42,6 +43,10 @@ if (!location) {
     errors.push("Location is required");
 }
 
+if (!responsibilities) {
+  errors.push("Responsibilities is required");
+}
+
 // Om det finns fel, visa dem och avbryt formulärinsändningen
 if (errors.length > 0) {
 displayErrors(errors);
@@ -49,13 +54,12 @@ return;
 }
 
 // Om inga fel finns, skicka data till servern och återställ formuläret
-await createWork(url, companyname, jobtitle, location); // Skicka data till servern
+await createWork(url, companyname, jobtitle, location, responsibilities); // Skicka data till servern
 await fetchCvs(url); // Uppdatera CV-listan efter att data har lagts till
 resetForm();
 
   });
 }
-
 
 
 //Formulär för att hämta data från servern
@@ -70,16 +74,15 @@ async function fetchCvs(){
     return;
   }
   
-
   ul.innerHTML = "";                          //Rensar listan
   
   data.forEach(cv => {
-    console.log('CV ID:', cv._id); // Kontrollera värdet av cv._id
     const li = document.createElement('li');  //Skapar <li>-element
 
     const companySpan = createSpanWithText(`Company: ${cv.companyname}`);
     const jobTitleSpan = createSpanWithText(`Job Title: ${cv.jobtitle}`);
     const locationSpan = createSpanWithText(`Location: ${cv.location}`);
+    const responsibilitiesSpan = createSpanWithText(`Responsibilities: ${cv.responsibilities}`);
   
     //Skapa delete-knapp
     const deleteBtn = document.createElement('button');
@@ -94,12 +97,12 @@ async function fetchCvs(){
      li.appendChild(companySpan);
      li.appendChild(jobTitleSpan);
      li.appendChild(locationSpan);
+     li.appendChild(responsibilitiesSpan);
      li.appendChild(deleteBtn);
  
      ul.appendChild(li);                       //Lägger till <li>-element till <ul>
    });
  
-
 } catch (error){
   console.error("Fel uppstod vid hämtning av CV-data:", error);
 }
@@ -114,13 +117,10 @@ function createSpanWithText(text) {
 //Metod för radera post
 async function deleteCv(url, id) {
   try {
-    console.log('ID att radera:', id); //Kontroll för att se om ID är korrekt
     const response = await fetch(`${url}/${id}`, {
       method: 'DELETE'
     });
 
-    console.log(_id)
-    console.log(url)
     if (response.ok) {
       // CV-posten raderades framgångsrikt
       console.log('CV post deleted successfully');
@@ -136,12 +136,14 @@ async function deleteCv(url, id) {
 }
 
 //Skapa post
-async function createWork(url, companyname, jobtitle, location) {
+async function createWork(url, companyname, jobtitle, location, responsibilities) {
   let work = {                                        //Skapar nytt objekt som skickar till databasen
       companyname: companyname,
       jobtitle: jobtitle,
-      location: location
+      location: location,
+      responsibilities: responsibilities
   };
+
   const response = await fetch(url, {                 //Databasens URL som argument   
       method: "POST",                                 //POST för att skicka data till databasen
       headers: {
