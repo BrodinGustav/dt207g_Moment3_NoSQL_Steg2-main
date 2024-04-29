@@ -21,7 +21,7 @@
 70C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\package-lock.json133585107137005206 0
 79C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\source-map-js133585105162394830 1
 150C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@parcel\optimizer-svgo\node_modules\css-select\lib\pseudo-selectors\pseudos.d.ts.map133585105164524710 0
-57C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist133588459641305716 1
+57C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist133588485253614929 1
 88C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\path-type\package.json133585105152575836 0
 114C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest.c133585105172812152 0
 104C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\@swc\helpers\_\_ts_values\package.json133585105183556557 0
@@ -91,7 +91,7 @@
 90C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\abortcontroller-polyfill133585105161905140 1
 85C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\fill-range\index.js133585105153623747 0
 90C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\weak-lru-cache\README.md133585105159275746 0
-64C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\src\main.js133588459640868083 0
+64C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\src\main.js133588485253170695 0
 116C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\caniuse-lite\data\features\spellcheck-attribute.js133585105190252601 0
 94C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\node_modules\csso\lib\clean\WhiteSpace.js133585105175473815 0
 66C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\src\style.css133585036959798851 0
@@ -5868,5 +5868,5 @@
 105C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\dt207g_Moment3_NoSQL_Steg2-main.59712999.js.map133588456082763782 0
 68C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\about.html133588456083118119 0
 76C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.2cdaf7bc.css133588456083509030 0
-75C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.de158e3a.js133588459641265680 0
-79C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.de158e3a.js.map133588459641295677 0
+75C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.de158e3a.js133588485253573926 0
+79C:\Utbildning\DT207G\dt207g_Moment3_NoSQL_Steg2-main\dist\index.de158e3a.js.map133588485253604628 0

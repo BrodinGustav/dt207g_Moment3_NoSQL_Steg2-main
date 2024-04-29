@@ -74,6 +74,7 @@ async function fetchCvs(){
   ul.innerHTML = "";                          //Rensar listan
   
   data.forEach(cv => {
+    console.log('CV ID:', cv._id); // Kontrollera värdet av cv._id
     const li = document.createElement('li');  //Skapar <li>-element
 
     const companySpan = createSpanWithText(`Company: ${cv.companyname}`);
@@ -84,7 +85,8 @@ async function fetchCvs(){
     const deleteBtn = document.createElement('button');
     deleteBtn.textContent = "Radera";
     deleteBtn.addEventListener("click", async () => {
-      await deleteCv(url, cv.id);
+      event.preventDefault();                 //Förhindrar att formuläret skickas vid klick. Nu kan klicket anropa "deleteCV"-funktionen korrekt.
+      await deleteCv(url, cv._id);
       await fetchCvs(url);
     })
 
@@ -110,10 +112,10 @@ function createSpanWithText(text) {
 }
 
 //Metod för radera post
-async function deleteCv(_id) {
+async function deleteCv(url, id) {
   try {
-    console.log('ID att radera:', _id); //Kontroll för att se om ID är korrekt
-    const response = await fetch(`/cv/${_id}`, {
+    console.log('ID att radera:', id); //Kontroll för att se om ID är korrekt
+    const response = await fetch(`${url}/${id}`, {
       method: 'DELETE'
     });
 

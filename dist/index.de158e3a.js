@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", function() {
     // Kör koden endast om den aktuella sidan är index.html
     if (window.location.pathname === "/index.html") fetchCvs(url); // Hämta och visa CV-data
     else if (window.location.pathname === "/add.html") //Hämta in ID för cvForm och lägg till lyssnare
-    document.getElementById("cvForm").addEventListener("submit", async function(event) {
-        event.preventDefault(); // Förhindra standardbeteende för formuläret
+    document.getElementById("cvForm").addEventListener("submit", async function(event1) {
+        event1.preventDefault(); // Förhindra standardbeteende för formuläret
         let companyname = document.getElementById("companyname").value;
         let jobtitle = document.getElementById("jobtitle").value;
         let location = document.getElementById("location").value;
@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             ul.innerHTML = ""; //Rensar listan
             data.forEach((cv)=>{
+                console.log("CV ID:", cv._id); // Kontrollera värdet av cv._id
                 const li = document.createElement("li"); //Skapar <li>-element
                 const companySpan = createSpanWithText(`Company: ${cv.companyname}`);
                 const jobTitleSpan = createSpanWithText(`Job Title: ${cv.jobtitle}`);
@@ -54,7 +55,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 const deleteBtn = document.createElement("button");
                 deleteBtn.textContent = "Radera";
                 deleteBtn.addEventListener("click", async ()=>{
-                    await deleteCv(url, cv.id);
+                    event.preventDefault(); //Förhindrar att formuläret skickas vid klick. Nu kan klicket anropa "deleteCV"-funktionen korrekt.
+                    await deleteCv(url, cv._id);
                     await fetchCvs(url);
                 });
                 // Lägg till spans i <li>-elementet
@@ -74,10 +76,10 @@ document.addEventListener("DOMContentLoaded", function() {
         return span;
     }
     //Metod för radera post
-    async function deleteCv(_id) {
+    async function deleteCv(url, id) {
         try {
-            console.log("ID att radera:", _id); //Kontroll för att se om ID är korrekt
-            const response = await fetch(`/cv/${_id}`, {
+            console.log("ID att radera:", id); //Kontroll för att se om ID är korrekt
+            const response = await fetch(`${url}/${id}`, {
                 method: "DELETE"
             });
             console.log(_id);
