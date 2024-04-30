@@ -56,7 +56,7 @@ return;
 // Om inga fel finns, skicka data till servern och återställ formuläret
 await createWork(url, companyname, jobtitle, location, responsibilities); // Skicka data till servern
 await fetchCvs(url); // Uppdatera CV-listan efter att data har lagts till
-resetForm();
+resetForm(); 
 
   });
 }
